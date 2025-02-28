@@ -1,0 +1,94 @@
+<head>
+<title>Complain Management System</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+ .star
+  {
+  color:red;
+  }
+  input::placeholder
+  {
+  color:#dddddd;
+  }
+ </style>
+</head>
+<body>
+<div id="wrapper">
+	<div id="header">
+		<div id="logo">
+			<h1>We Serve the Best Services</h1>
+		</div>
+	</div>
+	<!-- end #header -->
+	<div id="menu">
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Photos</a></li>
+			<li><a href="#">Links</a></li>
+			<li><a href="#">FAQ</a></li>
+			<li><a href="#">Contact</a></li>
+
+		</ul>
+	</div>
+	<!-- end #menu -->
+	<div id="page">
+		<div id="banner">&nbsp;</div>
+		<div id="content">
+		   <form method="post" action="insertengineer.php">
+			<table border=0 cellpadding=3 width="70%">
+			<tr>
+			<td align="right"> Engineer id <span class="star">*</span></td>
+			<td> <input type="text" name="eng_id" size=15 placeholder="Enter engineer id"></td>
+			</tr>
+			<tr>
+			<td align="right"> Engineer name <span class="star">*</span></td>
+			<td><input type="text" name="eng_name" size=15 placeholder="Enter engineer name"></td>
+			</tr>
+			<tr>
+			<td align="right"> Address <span class="star">*</span></td>
+				<td> <input type="text" name="addr" size=25 placeholder="Enter Address"></td>
+			  </tr>
+			  <tr>
+			    <td align="right"> email id <span class="star">*</span></td>
+				<td> <input type="text" name="email" size=20 placeholder="Enter Email id"></td>
+			  </tr>
+			  <tr>
+			    <td align="right"> Engineer No </td>
+				<td> <input type="text" name="emobile" size=11 placeholder="Enter Engineerno"></td>
+			  </tr>
+			  <tr>
+			    <td align="right"> Date/Time <span class="star">*</span></td>
+				<td> <input type="text" name="date_time" size=15 placeholder="Enter date/time"></td>
+			  </tr>
+			  <tr>
+			    <td align="right"> <input type="submit" value="Done"></td>
+				<td> <input type="reset" value="Clear"></td>
+			  </tr>
+			  
+			</table> 
+			</form>
+			
+		</div>
+		<!-- end #content -->
+		<div id="sidebar">
+			<ul>
+				<li>
+					<h2>Service Categories</h2>
+					<ul>
+						<li><a href="#">Software</a> <span>Share Software Problems with us</span></li>
+						<li><a href="#">Hardware</a> <span>Harware Problem any type</span></li>
+						<li><a href="#">Network</a>  <span>Network Problem such as LAN,Man,Wan</span> </li>
+					</ul>
+				</li>
+				
+				</ul>
+		</div>
+		<!-- end #sidebar -->
+		<div style="clear: both;">&nbsp;</div>
+	</div>
+	<div id="footer">
+		<p>Copyright (c) 2017 - 2018  MCA Batch MIT</p>
+	</div>
+</div>
+</html>
